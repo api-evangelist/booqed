@@ -1,7 +1,19 @@
 aid: booqed
 name: Booqed
-description: Booqed is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BOOQED is a Hong Kong-based proptech company building flexible workplace
+  technology that turns underutilized real estate into bookable, on-demand
+  workspace. Its flagship product QUBIC is a line of sound-isolating, modular
+  smart booths and work pods (for one to six people) with soundproofing,
+  ventilation, power, and a proprietary access-control system managed through a
+  mobile web app. Alongside the hardware, BOOQED offers space-management SaaS
+  that makes existing meeting rooms and desks bookable and trackable with
+  utilization analytics, plus the BOOQED app for individuals to book hot desks
+  and meeting rooms on demand across Hong Kong, Singapore, and Shenzhen. Founded
+  by David Wong, Charles Oh, and Ken Huang, BOOQED went through the Colliers and
+  Techstars proptech accelerator and raised seed funding in 2019. This profile
+  is maintained in the API Evangelist network; BOOQED does not currently publish
+  a public developer API, SDKs, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/booqed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6071046845729b6781210bb6/608a137059e3465ffc36ed02_BOOQED%20Web%20Graph.png
 tags:
 - Company
+- Proptech
+- Workspace Booking
+- Smart Office
+- Space Management
+- Coworking
+- Meeting Rooms
+- Real Estate
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://booqed.com/
+  url: https://www.booqed.com/
+- type: Blog
+  url: https://www.booqed.com/blog
+- type: Support
+  url: https://www.booqed.com/contact
+- type: Login
+  url: https://hosts.booqed.com/
+- type: TermsOfService
+  url: https://www.booqed.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.booqed.com/privacy-policy
+- type: DomainSecurity
+  url: security/booqed-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
