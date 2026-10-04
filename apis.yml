@@ -55,7 +55,7 @@ tags:
 - Space Management
 - Co-Working
 - Meeting Rooms
-- Real-Estate
+- Real Estate
 - Hardware
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - Meeting Rooms
 - Real Estate
 - Hardware
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
